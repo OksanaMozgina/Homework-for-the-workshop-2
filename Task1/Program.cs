@@ -10,9 +10,9 @@ void AnswerToTask(int number)
 
     string numericAsString = number.ToString();
     int result = int.Parse(numericAsString[1].ToString());
-    if (number < 1000 && number > 100)
+    if (number < 1000 && number >= 100)
         Console.WriteLine($"Result numeric: {result}");
     else
         Console.WriteLine("Вы ввели не трехзначное число, введите трехзначное число");
 }
-AnswerToTask(697);
+AnswerToTask(10);
