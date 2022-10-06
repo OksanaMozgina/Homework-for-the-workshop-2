@@ -11,9 +11,9 @@ void CheckingTheDayOfTheWeek(int dayNumber)
     {
         Console.WriteLine($"{dayNumber} -> да");
     }
-    else 
+    else
     {
-    Console.WriteLine($"{dayNumber} -> нет");
+        Console.WriteLine($"{dayNumber} -> нет");
     }
 }
 
